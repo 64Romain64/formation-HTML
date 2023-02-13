@@ -31,55 +31,58 @@ textarea {
   letter-spacing: 1px;
 }
 
-input:focus, textarea:focus; select:focus, button:focus{
-    outline: none;
-    -webkit-box-shadow : 0px 0px 11px -7px #bac4bf;
-    -moz-box-shadow : 0px 0px 11px -7px #bac4bf;
-    box-shadow:0px 0px 11px -7px #bac4bf;
-    border: solid 1px #d5e1db;
+input:focus,
+textarea:focus,
+select:focus,
+button:focus {
+  outline: none;
+  -webkit-box-shadow: 0px 0px 11px -7px #bac4bf;
+  -moz-box-shadow: 0px 0px 11px -7px #bac4bf;
+  box-shadow: 0px 0px 11px -7px #bac4bf;
+  border: solid 1px #d5e1db;
 }
 
-label{
-    margin-bottom: 0.5em;
+label {
+  margin-bottom: 0.5em;
 }
 
-.section-header{
-    text-align: center;
-    margin: 0 auto;
-    font: 300 2rem 'Oswald', sans-serif;
-    letter-spacing: 6px;
-    margin-bottom: 25px;
+.section-header {
+  text-align: center;
+  margin: 0 auto;
+  font: 300 2rem "Oswald", sans-serif;
+  letter-spacing: 6px;
+  margin-bottom: 25px;
 }
 
-.form-horizontal{
-    max-width: 400px;
-    font-family: 'Lato';
-    font-weight: 400;
+.form-horizontal {
+  max-width: 400px;
+  font-family: "Lato";
+  font-weight: 400;
 }
 
-.send-button{
-    margin-top: 15px;
-    height: 34px;
-    width: 400px;
-    background-color: #d5e1db;
-    border: none;
-    border-radius: 7px;
-    font: 300 14px 'Lato', sans-serif;
-    letter-spacing: 2px;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    justify-content: center;
+.send-button {
+  margin-top: 15px;
+  height: 34px;
+  width: 400px;
+  background-color: #d5e1db;
+  border: none;
+  border-radius: 7px;
+  font: 300 14px "Lato", sans-serif;
+  letter-spacing: 2px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.send-button{
-    cursor: pointer;
-    color: white;
-    background-color: #bac4bf;
+.send-button {
+  cursor: pointer;
+  color: white;
+  background-color: #bac4bf;
 }
 
-.advert-wrapper{
-    color: grey;
-    font-size: 0.8rem;
-    margin-top: 2rem;
+.advert-wrapper {
+  color: grey;
+  font-size: 0.8rem;
+  margin-top: 2rem;
 }
